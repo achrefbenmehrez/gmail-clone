@@ -1,0 +1,68 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  color: #818181;
+  width: 202px;
+  height: 32px;
+  padding-right: 12px;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover > p,
+.sidebarOption:hover > h3,
+.sidebarOption--active,
+.sidebarOption--active > p,
+.sidebarOption--active > h3 {
+  background-color: #fcecec;
+  color: #c04b37;
+  font-weight: 800 !important;
+}
+
+.sidebarOption_MuiSvgIcon-root {
+  padding: 5px;
+}
+
+.sidebarOption > h3 {
+  flex: 1;
+  margin-left: 10px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  color: #202124;
+  text-shadow: none;
+}
+
+.sidebarOption--active > h3 {
+  flex: 1;
+  margin-left: 10px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  color: #d93025;
+  text-shadow: none;
+}
+
+.sidebarOption > p {
+  display: none;
+  font-weight: 300;
+}
+
+.sidebarOption:hover > p {
+  display: inline;
+}
+
+.sidebarOption--active > p {
+  display: inline !important;
+}
+
+.sidebarOption:hover > p {
+  display: inline;
+}

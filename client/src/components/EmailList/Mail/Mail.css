@@ -1,0 +1,81 @@
+.mail {
+  flex: 1;
+}
+
+.mail_tools {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.mail_toolsLeft {
+  display: flex;
+}
+
+.mail_toolsRight {
+  display: flex;
+}
+
+.mail .MuiSvgIcon-root {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.mail_header1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.mail_header1Left {
+  margin-left: 45px;
+}
+
+.mail_header1Left .MuiSvgIcon-root {
+  padding-right: 0px;
+  margin: 0;
+}
+
+.mail_header1Right {
+  vertical-align: middle;
+  margin-top: 25px;
+}
+
+.mail_header1Right .MuiSvgIcon-root {
+  margin-right: 15px;
+}
+
+.mail_header2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.mail_header2Left {
+  display: flex;
+}
+
+.mail_header2LeftSender {
+  padding-left: 16px;
+}
+
+.mail_header2LeftSender > p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.mail_header2LeftSender > h3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.mail_header2Right {
+  display: flex;
+  justify-content: space-between;
+  font-size: .85rem;
+}
+
+.mail_header2Right > .MuiSvgIcon-root {
+  margin: 10px;
+}

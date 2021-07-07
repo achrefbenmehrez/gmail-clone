@@ -1,0 +1,68 @@
+.emailList {
+  flex: 1;
+  overflow: scroll;
+}
+
+.emailList_settings {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  z-index: 999;
+  padding-right: 10px;
+  margin: 0 16px 0 0 !important;
+  padding: 0 16px 0 16px;
+}
+
+.emailList_settingsLeft {
+  vertical-align: middle;
+}
+
+.emailList_settingsRight {
+  display: flex;
+}
+
+.emailList_sections {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 999;
+}
+
+.emailList_settingsRightCounter {
+  -webkit-font-smoothing: auto !important;
+  font-size: 0.75rem !important;
+  letter-spacing: 0.3px !important;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif !important;
+  text-decoration: none !important;
+  margin-top: 16px;
+}
+
+.emailList .MuiSvgIcon-root {
+  display: block;
+  font-size: 0 !important;
+  height: 20px !important;
+  margin: -10px !important;
+  width: 20px !important;
+}
+
+.MuiSvgIcon-root {
+  width: 88px;
+  height: 44px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.MuiSvgIcon-root .MuiAvatar-fallback {
+  padding-right: 0;
+}
+
+.emailList_list {
+  padding-bottom: 20px;
+}
