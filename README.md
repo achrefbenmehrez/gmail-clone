@@ -1,5 +1,5 @@
 # Gmail Clone
-This app was built with the mern (MongoDB, Expressjs, Reactjs, Nodejs) and redux for state management.
+This app was built with the mern stack (MongoDB, Expressjs, Reactjs, Nodejs) and redux for state management.
 
 ## Live preview 
 
